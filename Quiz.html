@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ewatomi's Quiz Application</title>
+    <link rel="stylesheet" href="Quiz.css">
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Start Qiz Button-->
+    <div class="start_btn"><button>Begin Quiz</button></div>
+
+    <!--Information Box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules of the Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="information">a.You will have only <span>20 seconds</span> per each question</div>
+            <div class="information">b. The quizzes consists of questions carefully designed to help you self-assess
+                your comprehension of the information presented on the topics covered in the module</div>
+            <div class="information">c. Each question in the quiz is of multiple-choice or "true or false" format.</div>
+            <div class="information">d. After responding to a question, click on the "Next Question" button at the
+                bottom to go to the next question</div>
+            <div class="information">e. If you retake the quiz, the questions and their respective responses will be
+                randomized.</div>
+            <div class="information">f. The total score for the quiz is based on your responses to all questions.</div>
+            <div class="information">g. Your quiz will not be graded, if you skip a question or exit before responding
+                to all the questions.</div>
+        </div>
+        <div class="buttons">
+            <button class="Exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+    <!--Quiz Section-->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Ewatomi's Quiz Application</div>
+            <div class="timer">
+                <div class="time_mess">Time Left</div>
+                <div class="timer_rem">20</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_mess">
+                <span>Which technology is primarily responsible for the styling of web pages?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>Javascript</span>
+                    <div class="icon"><i class="fa-regular fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>HTML</span>
+                    <div class="icon"><i class="fa-regular fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>CSS</span>
+                    <div class="icon"><i class="fa-regular fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Python</span>
+                    <div class="icon"><i class="fa-regular fa-check"></i></div>
+                </div>
+            </div>
+        </section>
+        <!--Footer for the Question box-->
+        <footer>
+            <div class="total_que">
+                <span><p>2 of 5</p></span>
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <!--Result-->
+    <div class="result_box">
+        <div class="complete_mess">
+            Congratulations! You have completed this 10 question quiz.
+        </div>
+        <div class="score_mess">
+            <span>You scored only 2 of 5</span>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
